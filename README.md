@@ -1,5 +1,5 @@
 # **Project Introduction** #
-**Static Website Hosting**is a simple web hosting method used to deliver static web pages containing HTML, CSS, and JavaScript files directly to users through a web server.
+**Static Website Hosting** is a simple web hosting method used to deliver static web pages containing HTML, CSS, and JavaScript files directly to users through a web server.
 
 In this project, **a monolithic architecture** is implemented where both the website files and the **Nginx web server** are deployed on a single Amazon Web Services EC2 instance. The static website files are placed in **the Nginx root directory (/usr/share/nginx/html)**, enabling the server to efficiently serve web pages to users through the EC2 instance’s public IP address.
 
